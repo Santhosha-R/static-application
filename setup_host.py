@@ -19,7 +19,7 @@ run("sudo ln -s /etc/nginx/sites-available/culturehub.info /etc/nginx/sites-enab
 run("sudo rm -f /etc/nginx/sites-enabled/default")
 
 run("sudo mkdir -p /var/www/culturehub.info/html")
-run("sudo mv /tmp/index.html /var/www/culturehub.info/html/index.html")
+run("sudo mv ./index.html /var/www/culturehub.info/html/index.html")
 
 run("sudo nginx -t && sudo systemctl reload nginx")
 
