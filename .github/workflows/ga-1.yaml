@@ -6,5 +6,5 @@ jobs:
   say-hellow:
     runs-on: ubuntu-latest
     steps:
-      - name: run command
+      - name: step1
         run: echo "Hello, World!"
