@@ -8,10 +8,6 @@ on:
         default: 'john-doe'
         required: false
         type: string
-
-
-
-
 jobs:
   say-hellow:
     runs-on: ubuntu-latest
