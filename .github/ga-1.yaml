@@ -1,6 +1,6 @@
 name: introduction
 
-on: [push]
+on: workflow_dispatch
 
 jobs:
   say-hellow:
