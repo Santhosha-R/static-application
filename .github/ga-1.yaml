@@ -1,0 +1,10 @@
+name: introduction
+
+on: [push]
+
+jobs:
+  say-hellow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: run command
+        run: echo "Hello, World!"
