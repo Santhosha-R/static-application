@@ -4,4 +4,4 @@ jobs:
   say-hello:
     runs-on: ubuntu-latest
     steps:
-      - run: echo"Hellow world!!"
+      - run: echo "Hellow world!!"
