@@ -1,0 +1,10 @@
+name: Checkout
+
+on: workflow_dispatch
+
+jobs:
+  checkout:
+    runs-on: ubuntu-latest
+    steps:
+      - name: list the files
+        run: ls -lart
