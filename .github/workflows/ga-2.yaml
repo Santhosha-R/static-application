@@ -1,4 +1,4 @@
-name: Checkout
+name: Checkout the code
 
 on: workflow_dispatch
 
