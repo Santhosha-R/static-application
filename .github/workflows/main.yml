@@ -1,7 +1,11 @@
 name: Introduction Git-hub action
 on: workflow_dispatch
 jobs:
-  say-hello:
+  say-hello1:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hellow world!!"
+  say-hello2:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hellow world!!"
